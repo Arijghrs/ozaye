@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OZAYE - Innover la Finance Inspirer la Confiance</title>
+        <link rel="icon" href="/assets/images/Artboard 15.png" type="image/png">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMA9Wyzm9FIm2QuFuu50EYpZSRgnX2FZg5y7yVG" crossorigin="anonymous">
+        <link href="https://your-font-provider.com/fonts/beausite-classic-medium.css" rel="stylesheet">
+    </head>
+
+
+
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/openNewCurrency.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/accounts.js"></script>
+    <script src="assets/js/manage.js"></script>
+
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("sidebar");
+            if (sidebar.style.width === "250px") {
+                sidebar.style.width = "0";
+            } else {
+                sidebar.style.width = "250px";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Barre de Notification -->
+    <div class="notification-bar">
+        <p>Nous lançons bientôt! <a href="#"> <span class="dash"> Restez à l'écoute</span></a></p>
+    </div>
+    <header class="header-container">
+        <nav class="navbar">
+            <div class="left-nav">
+                <div class="logo">
+                    <a href="#hero">
+                        <img src="/assets/images/150ppi/LOGO_BAsset_1-removebg-preview.png" alt="Logo">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#hero" class="smooth-scroll" onclick="toggleSidebar()">Accueil</a></li>
+                    <li><a href="#paymentSection" class="smooth-scroll" onclick="toggleSidebar()">Paiement</a></li>
+                    <li><a href="#finance" class="smooth-scroll" onclick="toggleSidebar()">Solution</a></li>
+                    <li><a href="#payment-solutions" class="smooth-scroll" onclick="toggleSidebar()">Fonctionnalités</a>
+                    </li>
+                    <li><a href="#faq" class="smooth-scroll" onclick="toggleSidebar()">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="header-buttons">
+                <a href="#demo" class="btn btn-demo">S'inscrire</a>
+            </div>
+            <div class="menu-icon" onclick="toggleSidebar()">
+                <span>&#9776;</span>
+            </div>
+        </nav>
+        <div id="sidebar" class="sidebar">
+            <div class="sidebar-content">
+                <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">&times;</a>
+                <a href="#hero" class="smooth-scroll" onclick="toggleSidebar()">Accueil</a></li>
+                <a href="#paymentSection" class="smooth-scroll" onclick="toggleSidebar()">Paiement</a></li>
+                <a href="#finance" class="smooth-scroll" onclick="toggleSidebar()">Solution</a></li>
+                <a href="#payment-solutions" class="smooth-scroll" onclick="toggleSidebar()">Fonctionnalités</a></li>
+                <a href="#faq" class="smooth-scroll" onclick="toggleSidebar()">FAQ</a></li>
+                <a href="#demo" class="btn btn-demo" onclick="toggleSidebar()">S'inscrire</a>
+            </div>
+        </div>
+        <hr class="navbar-divider">
+    </header>
+
+    <!-- hero.html -->
+    <section id="hero" class="hero reveal">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="about">
+                    <div class="announcement">
+                        <span class="Announcing">⭐️Announce OZAYE Beta 1.0</span>
+                    </div>
+                    <h1>Envoyer l'argent depuis
+                        la tunisie à petit prix de
+                        façon sécurisée et facile.</h1>
+                    <p>OZAYE vous connecte avec d'autres tunisiens en
+                        besoin d'échange d'argent entre la tunisie et
+                        l'Europe. Echangez de l'argent de façon facile,
+                        sécurisée, traçable et taux d'échange</p>
+                </div>
+                <form class="wich-form">
+                    <input type="email" placeholder="Entrez votre email" required>
+                    <button type="submit">Contacter </button>
+                </form>
+                <p class="privacy">Nous nous soucions de vos données dans notre <a href="#">politique de
+                        confidentialité</a>.</p>
+            </div>
+            <div class="hero-right-imgbg">
+                <div class="hero-right">
+                    <div class="contact-header">
+                        <h2>Contactez-Nous</h2>
+                        <p>Des questions? Nous sommes là pour vous aider !</p>
+                    </div>
+                    <form class="contact-form">
+                        <input type="email" placeholder="Votre Email" required>
+                        <input type="text" placeholder="Sujet de l'Email" required>
+                        <textarea placeholder="Votre Message" required></textarea>
+                        <button type="submit">Continuer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <section class="payment-section" id="paymentSection">
+        <div class="intro-text">
+            <h1>Envoie d'argent depuis la
+                Tunisie sans contraintes est
+                maintenant possible!
+            </h1>
+            <p>
+                Faciliez vos échanges d'argent entre la Tunisie et l'Europe/le
+                monde. Connectez-vous à notre communauté Tunisienne à
+                l'étranger et échangez de l'argetn d'où vous êtes sans prise de
+                tête et de façon conforme, sécurisée et traçable
+        </div>
+
+        <div class="CONVcards-container reveal">
+
+            <div class="card global-accounts">
+                <div class="transfert">
+                    <h1>Où vous souhaitez envoyer ou recevoir?</h1>
+                    <div class="button-group">
+                        <input type="radio" id="differentAmount" name="amount" value="different" checked>
+                        <label for="differentAmount">Tunisie > France</label>
+
+                        <input type="radio" id="sameAmount" name="amount" value="same">
+                        <label for="sameAmount">France > Tunisie
+                        </label>
+
+                        <div class="animation-bg"></div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="card open-currencies">
+                <div class="balance-card">
+                    <p class="balance-title">Montant</p>
+                    <input type="text" class="balance-amount" value="€500">
+                    <div class="balance-actions">
+                        <button class="action-button">
+                            <i class="fas fa-paper-plane"></i>
+                            <p>Envoyer</p>
+                        </button>
+                        <button class="action-button">
+                            <i class="fas fa-download"></i>
+                            <p>Recevoir</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="card send-money">
+
+                <div class="profile">
+                    <img src="/assets/images/tunisien-10320209.webp" alt="profile" />
+                    <h1>Sami Baccar</h1>
+                    <div class="prp">
+                        <p>Samibaccar@gmail.com</p>
+                        <p>Paris,France</p>
+                    </div>
+
+                    <div class="stars">★★★★☆</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="stats reveal">
+            <div class="stat">
+                <p>Transactions</p>
+                <span class="Currencie">+5700</span>
+            </div>
+            <hr class="dashed-line">
+            <div class="stat">
+                <p>Volume échangé</p>
+                <span>+100k €</span>
+            </div>
+            <hr class="dashed-line">
+            <div class="stat">
+                <p>Etudiants dépannés</p>
+                <span>100K €</span>
+            </div>
+            <hr class="dashed-line">
+            <div class="stat">
+                <p>temps </p>
+                <span>-24hr</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!----------------------------------------------------------------------------- Finance Management Section --------------------------------------------------------------------------------->
+    <section id="finance" class="finance reveal">
+        <h1>3 Etapes faciles pour la transaction</h1>
+        <p>Effectuez vos transactions rapidement et en toute sécurité grâce à notre processus simplifié.</p>
+
+
+        <div class="finance-steps ">
+            <div class="finance-step collect reveal">
+                <h3>Demande de l'argent</h3>
+                <div class="finance-options-row">
+                    <div class="finance-option collect">
+                        <img src="/assets/images/SVG/sack-dollar-solid.svg" alt="Global accounts icon" />
+                        <div>
+                            <h4>Faites une demande</h4>
+                            <p>
+                                Faites une demande:
+                                Créez votre compte et
+                                initiez un échange en
+                                demandant à votre
+                                communauté
+                            </p>
+                        </div>
+                    </div>
+                    <div class="finance-option collect">
+                        <img src="assets/images/SVG/handshake-angle-solid.svg" alt="Online payments icon" />
+                        <div>
+                            <h4>Acceptez un échange:</h4>
+                            <p>
+                                Une fois la demande reçue, il est essentiel de la vérifier et de l'accepter si tout est
+                                en ordre.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="finance-option collect">
+                        <img src="assets/images/SVG/right-left-solid.svg" alt="Invoices icon" />
+                        <div>
+                            <h4>Echangez et recevez</h4>
+                            <p>
+                                Après avoir compléter les étapes
+                                de transaction et de sécurité, recevez
+                                votre argent dans votre compte
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="finance-step manage reveal">
+                <h3>Bientôt au échelle international</h3>
+                <p>Notre communauté sera présente à travers le
+                    monde:</p>
+                <div class="currency-flags"></div>
+
+            </div>
+
+            <div class="finance-step spend reveal">
+                <h3>Pourquoi OZAYE?</h3>
+                <div class="finance-options-row">
+                    <div class="finance-option spend">
+                        <img src="/assets/images/SVG/lock-solid .svg" alt="Transfers icon" />
+                        <div>
+                            <h4> sécurité</h4>
+                            <p>
+                                Nous garantissons la sécurité de vos transactions et traçabilité.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="finance-option spend">
+                        <img src="/assets/images/SVG/circle-check-solid.svg" alt="Ozaye cards icon" />
+                        <div>
+                            <h4>Conforme et fiable</h4>
+                            <p>
+                                Nous respectons toutes les normes et régulations en vigueur pour assurer la conformité
+                                de nos services.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="finance-option spend">
+                        <img src="/assets/images/SVG/money-check-dollar-solid.svg" alt="Expenses icon" />
+                        <div>
+                            <h4>Petit prix</h4>
+                            <p>
+                                Nous offrons une
+                                solution à prix
+                                compétitifs et un taux
+                                d'échange favorable et
+                                optimal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!----------------------------------------------------------------------------------- Payment Solutions Section ------------------------------------------------------------------>
+    <section id="payment-solutions" class="payment-solutions reveal">
+        <div class="intro-text reveal">
+            <h1>Main Message:</h1>
+            <p>OZAYE is committed to revolutionizing how Tunisians abroad manage their 
+                financial transactions by cultivating a trusting community for money 
+                exchange. We provide a secure, compliant, and efficient platform that 
+                connects Tunisians worldwide, ensuring peace of mind, transparency, and 
+                financial accessibility through a shared network of trust and reliability.
+                </p>
+        </div>
+
+        <div class="featuresContainer ">
+            <div class="cards-container reveal">
+                <div class="card card-large">
+                    <div class="card-imageL"
+                        style="background-image: url('../assets/images/business-network-global-currency-exchange-600nw-1892999755.jpg');">
+                    </div>
+                    <div class="card-content">
+                        <h4>Un compte entreprise. 36+ devises. 180+ pays.</h4>
+                        <p>Donnez à votre entreprise des comptes tout-en-un pour des paiements globaux et des opérations
+                            financières simplifiés.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h4>Accédez aux taux interbancaires pour des transferts locaux peu coûteux.</h4>
+                        <p>Transformez vos opérations de paiement et de finance mondiales avec OZAYE, offrant une
+                            expérience fluide pour les transactions internationales et une gestion financière
+                            simplifiée.</p>
+                    </div>
+                    <div class="card-imageS"
+                        style="background-image: url('../assets/images/original-3ad02c4a59b84e7bb91e69e4fec99ec3.jpg');">
+                    </div>
+                </div>
+            </div>
+            <div class="cards-container reveal">
+                <div class="card">
+                    <div class="card-content">
+                        <h4>Sécurité et conformité au cœur de nos valeurs.</h4>
+                        <p>Respectant les normes et la confiance, la sécurité et la conformité forment la base des
+                            valeurs et des opérations de notre entreprise.</p>
+                    </div>
+                    <div class="card-imageS" style="background-image: url('../assets/images/secure.png');"></div>
+                </div>
+
+                <div class="card card-large">
+                    <div class="card-imageL"
+                        style="background-image: url('../assets/images/business-proposal-purchase-hands-holding-money.jpg');">
+                    </div>
+                    <div class="card-content">
+                        <h4>Centralisez les dépenses de l'équipe sans effort.</h4>
+                        <p>Gérez et surveillez efficacement les dépenses de l'équipe grâce à des systèmes de supervision
+                            consolidés.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="faq-section reveal" id="faq">
+        <div class="faq-container ">
+            <div class="faq-text">
+                <h2>Vous avez des questions ?</h2>
+                <p>Nous sommes à votre écoute. <a href="#hero">Nous
+                        contacter</a></p>
+            </div>
+            <div class="faq-items">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="question-text">Combien de temps faut-il pour ouvrir un compte ?</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Vous pouvez ouvrir un compte Payount et être approuvé dans un délai de 3 jours ouvrables.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="question-text">Quel est le taux d'échange à tenir en compte?</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Détails de la réponse à cette question.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="question-text">Combien coute un échange OZAYE?</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Détails de la réponse à cette question.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="question-text">Est-ce que mes transactions mensuelles sont 
+                            limitées?</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Détails de la réponse à cette question.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="footer">
+        <div class="footerContainer">
+            <div class="footerRow footer-top">
+                <div class="footer-logo">
+                    <a href="#hero">
+                        <img src="/assets/images/SVG/whiteLogo.svg" alt="Logo Ozaye" />
+                    </a>
+                    <p>
+                        Les services de paiement pour OZAYE LTD sont fournis par The Currency Cloud Limited.
+                    </p>
+                </div>
+            </div>
+            <div class="footerRow footer-bottom">
+                <div class="footer-col">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <p>&copy; 2024 OZAYE. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
